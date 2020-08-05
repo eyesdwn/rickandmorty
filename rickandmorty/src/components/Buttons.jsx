@@ -7,13 +7,13 @@ export default function Buttons() {
         <div className="row">
             <div className="col-sm">
               <button type="button" className="btn btn-light align-top button" onClick={() => store.updateCount()}>
-               <i className="fa fa-thumbs-o-up" />
+              <i class="far fa-heart"></i>
                Like
               </button>
             </div>
             <div className="col-sm">
               <button type="button" className="btn btn-light button" onClick={() => document.getElementById('comment').focus()}>
-                <i className="fa fa-comment-o" />
+              <i class="far fa-comment"></i>
                 Comment
               </button>
             </div>

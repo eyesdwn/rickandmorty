@@ -7,7 +7,7 @@ export default function Count() {
     return useObserver(() => (
         <div className="row reactions-count" >
             <div className="col-sm" align="left">
-                <i className="fa fa-thumbs-up" />{store.likesCount}
+              <i class="fas fa-heart"></i>{store.likesCount}
             </div>
             <div className="col-sm" align="right">
                 {store.commentsCount} comments
